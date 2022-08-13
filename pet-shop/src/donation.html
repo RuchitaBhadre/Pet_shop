@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shop's Donation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style >
+      
+      body {font-family: "Raleway", serif}
+      h1 {font-family: 'Lobster', cursive}
+    </style>
+</head>
+
+<body style="background-color:rgb(184, 223, 213);">
+  <header style="padding:16px 16px">
+        <h1 class="text-center text">Shop's Donation Portal</h1>
+        <p class="text-center">Donate to PRV pet shop!</p>
+        <div class="row" style="text-align: center;">
+          <div class="btn-group">
+            <a class="btn btn-default align-items-center mb-4 mb-sm-0 me-2 px-8 py-3 btn-outline-light text-dark shadow" href="./index.html">
+              <span>Back to Shop</span>
+            </a>
+            
+          </div>
+        </div>
+        <br/>
+          <div class="row">
+            <p id="accountBalance" class="text-center"></p>
+            <p id="accountAddress" class="text-center"></p>
+          <hr />
+            <form onSubmit="DonationApp.sendDonation(); return false;" style="text-align: center;">
+              You can donate:
+              <input class="text-center" type="text" id="newString"> ETH
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>  
+            </div>
+  </header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/donation.js"></script>
+</body>
+
+</html>
