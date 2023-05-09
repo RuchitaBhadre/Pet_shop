@@ -1,14 +1,4 @@
-﻿<a name="_eivwsddbh3l7"></a>APS1050 -  Blockchain Technologies and Cryptocurrencies
-
-<a name="_zg1tlalhgk7f"></a><a name="_gr8itiq3b98i"></a>**Team members**
-
-Vishal Kanna Anand - 1006874517
-
-Ruchita Bhadre - 1008497244
-
-Preethi Dhayalan - 1006817214
-
-<a name="_ihswby9eodki"></a><a name="_en44iohduiow"></a>**Executive Summary**
+# **Executive Summary**
 
 The programming and construction of the Pet-Shop DApp project are based on the tutorials, pet shop, and elections. All of the tutorial's functions are utilized and replicated in the project; however, the pet shop template has additional functionality added. Once inside the pet store, the client/user can adopt and pay for the dog(s) of their choice. Additionally, users/clients can vote for their favorite dog on the side. Ether can also be donated to the shop and data from both the user and store are displayed on the webpage.
 
